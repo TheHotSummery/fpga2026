@@ -1,0 +1,10 @@
+FAIL rescanned catalog starts first PCM load
+FAIL stalled PCM session reaches its 40-second configured recovery
+RECOVERY_EVIDENCE ready=0 attempts=0 resets=1 scans=2 mode=0 ph=0 start=0
+FAIL fresh PCM write completes after card and writer cancellation
+FAIL repeated recovery retains a clean image and audio catalog
+FAIL recovered media and PCM resume the original IR arrival announcement
+FAIL cold occupied sensor waits for audio availability before selecting the spoken journey
+EARLY_IR_RESULT checks=10 failures=6
+FATAL: C:\Users\Administrator\Documents\Codex\2026-10-09\referenced-chatgpt-conversation-this-is-an\work\v95_audit\early_ir_tb.v:158: audio recovery integration failed
+       Time: 510676000  Scope: early_ir_tb

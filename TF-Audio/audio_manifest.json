@@ -1,0 +1,85 @@
+{
+  "status": "READY",
+  "rate": 48000,
+  "channels": 1,
+  "bits": 16,
+  "padded_samples": 960000,
+  "used_samples": 859360,
+  "clips": [
+    {
+      "id": 1,
+      "start": 0,
+      "samples": 242523,
+      "seconds": 5.0525625,
+      "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\work\\v90_audio\\source_1.wav",
+      "source_sha256": "19c97e6168082f76e713eb2516cacd6a0ee7cbcf4e5003a71f9dc05e8e1afa4b",
+      "content_confirmation_pending": false,
+      "source_mp3": "C:\\Users\\Administrator\\Desktop\\ttsmaker-file-2026-10-21-10-51-38.mp3",
+      "source_mp3_sha256": "81f89e13a3314b74ef0664daab555a9a44bda3dcf1ef58345db14387f5bc8c09",
+      "description": "进站视频配音（用户提供原录音）"
+    },
+    {
+      "id": 2,
+      "start": 243003,
+      "samples": 176013,
+      "seconds": 3.6669375,
+      "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\work\\v90_audio\\source_2.wav",
+      "source_sha256": "4b428247c5bfb9af3ec55e2b00ad5a838e03bcde34f90346f960fcf76103b17f",
+      "content_confirmation_pending": false,
+      "source_mp3": "C:\\Users\\Administrator\\Desktop\\ttsmaker-file-2026-10-21-11-9-38.mp3",
+      "source_mp3_sha256": "3c2ba85a688bbc9e94f24ba53bca90225486709cef2749120c53fda1af959a84",
+      "description": "科技园到了，请各位乘客有序上下车"
+    },
+    {
+      "id": 3,
+      "start": 419496,
+      "samples": 197970,
+      "seconds": 4.124375,
+      "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\work\\v90_audio\\source_3.wav",
+      "source_sha256": "9c8a1162c18ef1586f2a6752bf652e1711aadb48c741b836826c96359b780d07",
+      "content_confirmation_pending": false,
+      "source_mp3": "C:\\Users\\Administrator\\Desktop\\ttsmaker-file-2026-10-21-11-17-8.mp3",
+      "source_mp3_sha256": "d14f09b062a9b30711e6811844f0a7facbb6977a82e0a091ab763215e2ae4f95",
+      "description": "列车即将出站，请未上车的乘客尽快上车"
+    },
+    {
+      "id": 4,
+      "start": 617946,
+      "samples": 164441,
+      "seconds": 3.425854166666667,
+      "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\work\\v90_audio\\source_4.wav",
+      "source_sha256": "1fa25030329170454c01f92279ec3d8914a79e57c56bcea82dc7a0df88cbdd1f",
+      "content_confirmation_pending": false,
+      "source_mp3": "C:\\Users\\Administrator\\Desktop\\ttsmaker-file-2026-10-21-11-17-43.mp3",
+      "source_mp3_sha256": "ba722840fc85a36b7f432c9e396feacd4e00c28e3eee694c5d69008408acde7c",
+      "description": "列车正在出站，请勿站在站台黄线内"
+    },
+    {
+      "id": 5,
+      "start": 782867,
+      "samples": 76493,
+      "seconds": 1.5936041666666667,
+      "source": "C:\\Users\\Administrator\\Documents\\Codex\\2026-10-09\\referenced-chatgpt-conversation-this-is-an\\work\\v90_audio\\source_5.wav",
+      "source_sha256": "33a2024c2cd1d2027bbc8ee5f42fab649d61b95ba08e6167efc5e7fa7cbf0b65",
+      "content_confirmation_pending": false,
+      "source_mp3": "C:\\Users\\Administrator\\Desktop\\ttsmaker-file-2026-10-21-13-20-35.mp3",
+      "source_mp3_sha256": "ce025c2918e175b538651b9dba51794a431b43c40a81786fec4c0afa8fc386ba",
+      "description": "下一站，大学城"
+    }
+  ],
+  "master_sha256": "6ebe8bf4483bf1f48be38a5b9ca416d1f4aa95eaa60c14dd4f41bc303c4929a5",
+  "duplicate_audio_4_5": false,
+  "replacement_clip_5_source": "C:/Users/Administrator/Desktop/ttsmaker-file-2026-10-21-13-20-35.mp3",
+  "confirmation": "User confirmed clip 2 says 科技园到了; user supplied replacement clip 5 as 下一站，大学城",
+  "filename": "RAIL.WAV",
+  "fpga_version": 95,
+  "rtl_sha256": "bb04f52384a3f8818cfe95e25a1c47ba49343c9dd45c59453eb44653e03a50de",
+  "compatible_audio_versions": [
+    90,
+    91,
+    92,
+    93,
+    94,
+    95
+  ]
+}

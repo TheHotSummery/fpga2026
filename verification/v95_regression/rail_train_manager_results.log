@@ -1,0 +1,30 @@
+PASS manager launches expected train media
+PASS previous autoplay saved and paused
+PASS new cycle starts with initial route state
+PASS production manager clamps full catalog to four railway photos
+PASS actual load watchdog queues a retry
+PASS manager launches expected train media
+PASS watchdog retry accepted while train busy
+PASS parser failure queues original train target
+PASS parser failure does not commit partial media
+PASS manager launches expected train media
+PASS manager commit updates visible media and event together
+PASS manager exports journey stage on visible media commit
+PASS manager launches expected train media
+PASS manager commit updates visible media and event together
+PASS manager exports journey stage on visible media commit
+PASS manual navigation and autoplay suppressed during train sequence
+PASS manager launches expected train media
+PASS manager commit updates visible media and event together
+PASS manager exports journey stage on visible media commit
+PASS manager launches expected train media
+PASS manager commit updates visible media and event together
+PASS manager exports journey stage on visible media commit
+PASS manager remains on departure photo until sensor clear
+PASS manager launches expected train media
+PASS manager commit updates visible media and event together
+PASS manager exports journey stage on visible media commit
+PASS autoplay restored after complete train sequence
+PASS manager retains next-station stage after restoring autoplay
+RESULT checks=28 failures=0
+C:\Users\Administrator\Documents\Codex\2026-10-09\referenced-chatgpt-conversation-this-is-an\work\v95_regression\rail_train_manager_tb.v:67: $finish called at 8460000 (1ps)

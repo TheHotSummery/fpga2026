@@ -1,0 +1,69 @@
+[
+  {
+    "test": "audio_recovery_integration",
+    "checks": 8,
+    "failures": 0,
+    "compiler_returncode": 3221225477,
+    "simulator_returncode": 0,
+    "sources": [
+      {
+        "path": "outputs/\u94c1\u8def\u5f02\u5e38\u6062\u590d\u4f18\u5316_V95/src/user_source/hdl_source/SD/sd_card_bmp.v",
+        "sha256": "6b8855707519df8e5ccf62cc0d61733bf8245916347242625de174f75ddebc22"
+      },
+      {
+        "path": "outputs/\u94c1\u8def\u5f02\u5e38\u6062\u590d\u4f18\u5316_V95/src/user_source/hdl_source/exhibit_fire_sequence.v",
+        "sha256": "b123a5deee0ed2979008ef6774b264fb84aea625c7bbd7beb29c67d3f349fc99"
+      },
+      {
+        "path": "work/v95_audit/audio_recovery_integration_tb.v",
+        "sha256": "32b8f5474f6a2de69915792dd4b2a4c6c0e228bbb356e41ec31f26531e5a85e6"
+      }
+    ]
+  },
+  {
+    "test": "startup",
+    "checks": 17,
+    "failures": 0,
+    "compiler_returncode": 3221225477,
+    "simulator_returncode": 0,
+    "sources": [
+      {
+        "path": "outputs/\u94c1\u8def\u5f02\u5e38\u6062\u590d\u4f18\u5316_V95/src/user_source/hdl_source/SD/sd_card_bmp.v",
+        "sha256": "6b8855707519df8e5ccf62cc0d61733bf8245916347242625de174f75ddebc22"
+      },
+      {
+        "path": "outputs/\u94c1\u8def\u5f02\u5e38\u6062\u590d\u4f18\u5316_V95/src/user_source/hdl_source/exhibit_fire_sequence.v",
+        "sha256": "b123a5deee0ed2979008ef6774b264fb84aea625c7bbd7beb29c67d3f349fc99"
+      },
+      {
+        "path": "work/v94_flow_audit/startup_recovery_tb.v",
+        "sha256": "880acb8c75cb5cd33c96b417a95caf6742f09be6a2dc55978aa18dfa44096aa0"
+      }
+    ]
+  },
+  {
+    "test": "writer_integrity",
+    "checks": 10,
+    "failures": 0,
+    "compiler_returncode": 3221225477,
+    "simulator_returncode": 0,
+    "sources": [
+      {
+        "path": "outputs/\u94c1\u8def\u5f02\u5e38\u6062\u590d\u4f18\u5316_V95/src/user_source/hdl_source/SD/sd_card_bmp.v",
+        "sha256": "6b8855707519df8e5ccf62cc0d61733bf8245916347242625de174f75ddebc22"
+      },
+      {
+        "path": "outputs/\u94c1\u8def\u5f02\u5e38\u6062\u590d\u4f18\u5316_V95/src/user_source/hdl_source/exhibit_fire_sequence.v",
+        "sha256": "b123a5deee0ed2979008ef6774b264fb84aea625c7bbd7beb29c67d3f349fc99"
+      },
+      {
+        "path": "work/v95_audit/writer_integrity_tb.v",
+        "sha256": "b5539580534380db4b4d3b9419dd5f0f042a141b329d990c7daceab1bdce7332"
+      },
+      {
+        "path": "outputs/\u94c1\u8def\u5f02\u5e38\u6062\u590d\u4f18\u5316_V95/src/user_source/hdl_source/SD/frame_fifo_write.v",
+        "sha256": "1f489dad3e55961abd94458f84cc674803b6edccad674ea29ab9c4b3d720dd49"
+      }
+    ]
+  }
+]

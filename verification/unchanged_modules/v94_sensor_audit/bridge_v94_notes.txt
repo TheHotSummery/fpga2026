@@ -1,0 +1,21 @@
+Actual V94 production display bridge regression
+
+Compiled source:
+outputs/铁路媒体启动恢复与温度同步_V94/src/user_source/hdl_source/exhibit_dht11_fire.v
+
+V94_BRIDGE_RESULT checks=24 failures=0 atomic_observations=11
+
+Existing11 V93 behavior cases preserved: no initial fake sample, normal reading,
+change, held mailbox during stopped video clock, latest reading after resume,
+alarm-only transfer, stale timeout, valid zero, upper bound and reset.
+
+New coverage: successive valid25C readings toggle display_update while digits
+stay25; no sample or an unvalidated input change cannot invent heartbeat;
+mailbox payload holds all11 bits; stopped video cannot show partial updates;
+resuming video catches up to latest sample; alarm/timeouts cannot fake a new
+sample; replug/valid zero produces a genuine heartbeat; full80C-to26C digits
+and heartbeat arrive together. The asynchronous source/destination clocks
+produced11 complete display transfers, each checked against accepted readings.
+
+No production source was edited. Test source bridge_v94_tb.v uses named ports.
+Log: bridge_v94_results.log

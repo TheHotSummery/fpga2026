@@ -1,0 +1,42 @@
+Read-only audit of V93 temperature path (2026-10-22)
+
+Focused simulation: sensor_50mhz_tb.v against production exhibit_dht11_fire.v.
+Only BOOT_US and POLL_US accelerated. Actual 50 MHz clock divider, full 20 ms
+host start pulse, open-drain DATA with pull-up, 20/30/40 us response delays,
+26/28/30 us zero bits, 68/70/75 us one bits, checksum and alarm are simulated.
+
+SENSOR_50MHZ_RESULT checks=13 failures=0 valid_frames=5 errors=2
+
+Absent sensor does not publish a sample, calibrate baseline or trigger fire.
+Valid 25C frames establish baseline after three readings. Invalid checksum at
+27C cannot fire. Two valid 27C frames after calibration trigger normally.
+
+No concrete DHT protocol/divider, false-trigger-on-boot or display CDC bug found.
+The prior 1 MHz ideal sensor test did not exercise the production divider, but
+the new actual-50-MHz waveform test passes the relevant protocol boundaries.
+
+Production expected timing after rst_all deasserts:
+- First valid reading roughly 2.024 seconds, then roughly every 2.524 seconds.
+- Earliest three-sample baseline roughly 7.07 seconds.
+- Up to roughly 5.05 seconds for two hot confirmations after a change, plus
+  sensor physical thermal response and 1C quantization.
+- Display adds only handshake clocks and at most one output frame.
+
+Sensor path cannot assert system reset or stop media clocks. rst_all is still
+~rst_n | ~audio_pll_lock. Fire output remains zero until valid calibrated data.
+Temperature reader/alarm modules are unchanged from V92; V93 only adds a
+display bridge. D14 DATA constraint and 50 MHz input clock are consistent.
+
+Do not treat these component simulation passes as SDRAM/SD or board validation.
+
+Recommended2.1-second polling regression completed:
+FULL_INTERVAL_NS=2123699899
+SENSOR_POLL2100_RESULT checks=54 failures=0 valid_frames=5 errors=2
+
+The first REST interval ran without acceleration at actual50MHz. Measured time
+from absent-sensor timeout to completion of the next valid frame was2.123699899s,
+including REST2.1s, the20ms host low pulse and the full sensor wire transaction.
+Later REST middle sections were explicitly fast-forwarded, with actual50MHz
+divider/deadline boundary cycles checked. Valid signal jitter, repeated same
+integer temperatures, three-frame baseline, invalid CRC rejection and two valid
++2C hot confirmations all passed. No production source was modified.

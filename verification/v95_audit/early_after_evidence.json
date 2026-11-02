@@ -1,0 +1,7 @@
+{
+  "source_sha256": "6b8855707519df8e5ccf62cc0d61733bf8245916347242625de174f75ddebc22",
+  "test_sha256": "06e0fa1dc4abb993abe46c357ddcfa050afab859d8e7bc4bbcc04f0c56122387",
+  "compiler_returncode": 3221225477,
+  "simulator_returncode": 0,
+  "scope": "Actual manager with card/parser/memory completion fixtures; card initially reports no WAV, sensor occupied before initialization."
+}

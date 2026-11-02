@@ -1,0 +1,32 @@
+{
+  "top_sha256": "f7a5787ec732104b9b85e06ae1d5540f5063425ea5715f9222779233422fba14",
+  "old_35bit_payload_preserved": true,
+  "old_frame_slices_preserved": true,
+  "unchanged_top_modules": [
+    "fade_transition_ctrl",
+    "osd_font32_rom",
+    "osd_ticker_bar",
+    "audio_bandpass_meter",
+    "osd_audio_wave",
+    "osd_audio_wave_rail",
+    "osd_video_fps",
+    "osd_emerg_banner",
+    "uart_console",
+    "emerg_buzzer",
+    "ec11_encoder",
+    "exhibit_controls",
+    "exhibit_config_latch",
+    "exhibit_reader",
+    "exhibit_color",
+    "exhibit_layer",
+    "exhibit_panel",
+    "exhibit_cdc_mailbox",
+    "exhibit_volume_latch",
+    "osd_font32_dictionary"
+  ],
+  "renderer_checks": 38,
+  "footer_comparison_pixels": 35824,
+  "production_modified": [
+    "top_tf_hdmi_audio.v"
+  ]
+}

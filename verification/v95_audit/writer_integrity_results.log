@@ -1,0 +1,14 @@
+PASS train launches intended video request
+PASS first transaction writer acknowledges
+PASS partial frame owns writer session and has written one burst
+PASS manager load is truly busy; load_busy was not forced
+EVIDENCE before_fail writer_state=2 write_cnt=128 fifo=32 kill=0
+PASS mid-stream parser failure cancels old SDRAM writer session
+PASS failed hidden frame stays uncommitted and target retries
+PASS train launches intended video request
+EVIDENCE retry writer_state=1 write_cnt=0 fifo=0 ack_count=2 abort_count=0
+PASS retry gets a fresh writer transaction instead of reusing orphan session
+PASS fresh retry writes every pixel exactly once
+PASS retry restarts at hidden page base address
+RESULT checks=10 failures=0
+C:\Users\Administrator\Documents\Codex\2026-10-09\referenced-chatgpt-conversation-this-is-an\work\v95_audit\writer_integrity_tb.v:115: $finish called at 40620000 (1ps)

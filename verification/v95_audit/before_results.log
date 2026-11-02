@@ -1,0 +1,22 @@
+FAIL stalled second audio directory scan performs one card recovery
+PASS audio catalog recovery retains committed front frame
+PASS audio catalog with continuing bytes is not reset by total duration
+PASS WAV request timeout retires the session atomically
+FAIL expired WAV request cannot restart later in the same clock
+FAIL WAV timeout cancels the partial SDRAM writer
+FAIL WAV timeout cancels parser and resets the stalled card
+FAIL WAV timeout releases audio write ownership without marking PCM valid
+FAIL late success at expired WAV deadline cannot promote a cancelled session
+FAIL WAV run timeout emits one shared writer/parser cancellation
+PASS delayed parser abort acknowledgement does not cancel twice
+FAIL failed background emergency poster cancels its partial writer
+PASS failed emergency poster releases write page ownership
+PASS partial emergency poster is not promoted and front remains valid
+PASS emergency-poster error cleanup is a single cancellation
+FAIL queued picture waits while resumed audio discovery takes ownership
+FAIL initial PCM and queued picture cannot start in the same clock
+PASS confirmed no-audio catalog still allows normal picture switching
+PASS cold first image remains allowed before audio initialization
+FAIL successful WAV done and IDLE handshake cannot launch a duplicate read
+RECOVERY_EDGES_RESULT checks=20 failures=11
+C:\Users\Administrator\Documents\Codex\2026-10-09\referenced-chatgpt-conversation-this-is-an\work\v95_audit\recovery_edges_tb.v:93: $finish called at 133910000 (1ps)

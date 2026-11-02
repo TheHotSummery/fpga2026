@@ -1,0 +1,3 @@
+FULL_INTERVAL_NS=2123699899
+SENSOR_POLL2100_RESULT checks=54 failures=0 valid_frames=5 errors=2
+work/v94_sensor_audit/sensor_poll_2100ms_tb.v:50: $finish called at 2263335110000 (1ps)

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480">
+<rect x="0" y="0" width="640" height="48" fill="#b61119" stroke="#b61119" stroke-width="1"/>
+<text x="16" y="41" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="26">应急疏散</text>
+<text x="153" y="35" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="25">EMERGENCY EXIT</text>
+<rect x="24" y="65" width="226" height="136" fill="#263b48" stroke="#bfd2dc" stroke-width="3"/>
+<rect x="249" y="111" width="182" height="47" fill="#344d5b" stroke="#344d5b" stroke-width="1"/>
+<rect x="431" y="65" width="185" height="136" fill="#b61119" stroke="#ff9090" stroke-width="3"/>
+<rect x="24" y="221" width="376" height="139" fill="#283740" stroke="#9cacb7" stroke-width="2"/>
+<rect x="431" y="221" width="185" height="139" fill="#007e50" stroke="#8be7b5" stroke-width="3"/>
+<rect x="24" y="380" width="592" height="81" fill="#b61119" stroke="#b61119" stroke-width="1"/>
+<text x="40" y="104" fill="#ffdc45" font-family="Microsoft YaHei" font-weight="700" font-size="22">STN-01  站台</text>
+<circle cx="59.5" cy="131.5" r="12.5" fill="#00cb83"/>
+<text x="83" y="141" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="18">您在这里  YOU</text>
+<text x="40" y="183" fill="#e1eaf0" font-family="Microsoft YaHei" font-weight="700" font-size="18">屏蔽门 / GATE</text>
+<text x="259" y="143" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="17">通道 CONCOURSE</text>
+<rect x="406" y="157" width="12" height="140" fill="#00dc89" stroke="#00dc89" stroke-width="1"/>
+<polygon points="406,286 420,286 420,275 434,292 420,309 420,298 406,298" fill="#00dc89" stroke="#00dc89" stroke-width="1"/>
+<text x="448" y="121" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="37">出口 A</text>
+<text x="448" y="159" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="17">封闭 CLOSED</text>
+<polygon points="529,170 536,170 552,189 545,189" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<polygon points="545,170 552,170 536,189 529,189" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="40" y="261" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="23">大厅 HALL</text>
+<polygon points="84,319 143,271 201,319" fill="#283740" stroke="#ffdc45" stroke-width="3"/>
+<text x="87" y="351" fill="#ffdc45" font-family="Microsoft YaHei" font-weight="700" font-size="19">禁止进入轨道</text>
+<text x="448" y="277" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="37">出口 B</text>
+<text x="448" y="315" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="19">可走 OPEN</text>
+<polygon points="520,328 568,328 568,319 600,335 568,353 568,342 520,342" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="40" y="424" fill="#ffffff" font-family="Microsoft YaHei" font-weight="700" font-size="25">出口 A 封闭，请从出口 B 撤离</text>
+<text x="40" y="449" fill="#fff1d1" font-family="Microsoft YaHei" font-weight="700" font-size="16">EXIT A CLOSED · USE EXIT B</text>
+</svg>

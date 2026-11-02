@@ -1,0 +1,73 @@
+{
+  "frozen_input_count": 87,
+  "frozen_inputs_unchanged": true,
+  "tests": {
+    "ticker": {
+      "checks": 211,
+      "failures": 0,
+      "compiler_returncode": 3221225477,
+      "simulator_returncode": 0,
+      "sources": [
+        {
+          "path": "work/v95_regression/chrome.v",
+          "sha256": "af5e00d4b156d27a377cba909c988e33c19a7662db4bfb164c9d2d192d284b15"
+        },
+        {
+          "path": "work/v95_regression/ticker_tb.v",
+          "sha256": "aea69d65f30a2f9b9ed40f4ac84b9a1eb59d95807f909dcb0771bb3ab6090706"
+        }
+      ]
+    },
+    "rail_train_flow": {
+      "checks": 94,
+      "failures": 0,
+      "compiler_returncode": 3221225477,
+      "simulator_returncode": 0,
+      "sources": [
+        {
+          "path": "work/v95_regression/flow.v",
+          "sha256": "58470e0217d5ec116e325cae14815ee97dc1cfd1a418a5a6a061a65bcb446435"
+        },
+        {
+          "path": "work/v95_regression/rail_train_flow_tb.v",
+          "sha256": "890c52126d244ed40e30a591fd2090f14caa0eb7e25542d33cae1116eaa90305"
+        }
+      ]
+    },
+    "rail_train_manager": {
+      "checks": 28,
+      "failures": 0,
+      "compiler_returncode": 3221225477,
+      "simulator_returncode": 0,
+      "sources": [
+        {
+          "path": "work/v95_regression/manager.v",
+          "sha256": "6b8855707519df8e5ccf62cc0d61733bf8245916347242625de174f75ddebc22"
+        },
+        {
+          "path": "work/v95_regression/sequence.v",
+          "sha256": "b123a5deee0ed2979008ef6774b264fb84aea625c7bbd7beb29c67d3f349fc99"
+        },
+        {
+          "path": "work/v95_regression/rail_train_manager_tb.v",
+          "sha256": "b780508d3ed9673e6d147335f943b0950f8ad04d1e68fe19c9573a0388e6a8e1"
+        }
+      ]
+    }
+  },
+  "payload_assets_unchanged_from_v93": [
+    {
+      "path": "TF-Audio/RAIL.WAV",
+      "sha256": "c3c7f1c0464dc89504c5b924de087b184fd2bd07c9b2712a09d19eac8056449e"
+    },
+    {
+      "path": "TF-Fire/0005.BMP",
+      "sha256": "b36021cc17885dcf6f47fd9299bbde05fe40d6bd8161202abd7ba5845f5b6f70"
+    },
+    {
+      "path": "TF-Fire/0006.BMP",
+      "sha256": "e8627ea90d36cb28f5483ab356b02ea052e9c00f403664c6e188f4aaca10107b"
+    }
+  ],
+  "scope": "Legacy manager fixture forces completed catalog/parser/memory status; real SPI/SDRAM PHY is not modeled. Missing child parser/card/reconstructor modules ignored as in original controlled fixture."
+}

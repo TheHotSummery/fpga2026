@@ -1,0 +1,2 @@
+V94_BRIDGE_RESULT checks=24 failures=0 atomic_observations=11
+work/v94_sensor_audit/bridge_v94_tb.v:64: $finish called at 6286000 (1ps)

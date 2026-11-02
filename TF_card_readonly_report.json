@@ -1,0 +1,311 @@
+{
+  "timestamp": "2026-10-24T20:38:24.560585",
+  "drive": "G:\\",
+  "read_only": true,
+  "files": [
+    {
+      "name": "00_img0_canon.wav",
+      "bytes": 1920078,
+      "sha256": "aa371673c4ce033d1ab1556bc99e648e681b08eed817d3ce1190eaf33c7a6ba6",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 59,
+            "lcn": 146
+          }
+        ]
+      }
+    },
+    {
+      "name": "01_img1_canon.wav",
+      "bytes": 1920078,
+      "sha256": "5867263b77001a78daee80a0203af506c985f4afbb9e34cad45e53fed62a7203",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 59,
+            "lcn": 205
+          }
+        ]
+      }
+    },
+    {
+      "name": "02_img2_canon.wav",
+      "bytes": 1920078,
+      "sha256": "3b60eec0e4f0270fcbeb75bd35d7ea9cadf41769a2f616bc24f40256c1b999aa",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 59,
+            "lcn": 264
+          }
+        ]
+      }
+    },
+    {
+      "name": "03_img3_canon.wav",
+      "bytes": 1920078,
+      "sha256": "ba9c3894ceb648905bde9be24fb10d11a7f29b1cce3cff8fdfe6ebf0c8dbc0fc",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 59,
+            "lcn": 323
+          }
+        ]
+      }
+    },
+    {
+      "name": "0001.BMP",
+      "bytes": 921654,
+      "sha256": "b5b142a0553c585fc7086f5ca0efefcd3609b84a5637d32d4b61604e9cd29515",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 29,
+            "lcn": 1
+          }
+        ]
+      },
+      "bmp": {
+        "width": 640,
+        "height": 480,
+        "bpp": 24
+      }
+    },
+    {
+      "name": "0002.BMP",
+      "bytes": 921654,
+      "sha256": "671c816afeb9e550db791739338721599c6a2a43e41bd7edf90ec853f5b7fcb8",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 29,
+            "lcn": 30
+          }
+        ]
+      },
+      "bmp": {
+        "width": 640,
+        "height": 480,
+        "bpp": 24
+      }
+    },
+    {
+      "name": "0003.BMP",
+      "bytes": 921654,
+      "sha256": "fadf12e95f2ce81bb79cb1b72ef56491b1429d521da84926e11f843045b9de88",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 29,
+            "lcn": 59
+          }
+        ]
+      },
+      "bmp": {
+        "width": 640,
+        "height": 480,
+        "bpp": 24
+      }
+    },
+    {
+      "name": "0004.BMP",
+      "bytes": 921654,
+      "sha256": "5b73b029eb851328a755b7fd3f48a2f44e337999a81332c5b395f6b4ff863210",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 29,
+            "lcn": 88
+          }
+        ]
+      },
+      "bmp": {
+        "width": 640,
+        "height": 480,
+        "bpp": 24
+      }
+    },
+    {
+      "name": "0005.BMP",
+      "bytes": 921654,
+      "sha256": "41ab0437a793b562453320f0f7c4cea66e3718f8d26c7cb67721bfd294b51e54",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 29,
+            "lcn": 117
+          }
+        ]
+      },
+      "bmp": {
+        "width": 640,
+        "height": 480,
+        "bpp": 24
+      }
+    },
+    {
+      "name": "0006.BMP",
+      "bytes": 921654,
+      "sha256": "e8627ea90d36cb28f5483ab356b02ea052e9c00f403664c6e188f4aaca10107b",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 29,
+            "lcn": 385
+          }
+        ]
+      },
+      "bmp": {
+        "width": 640,
+        "height": 480,
+        "bpp": 24
+      }
+    },
+    {
+      "name": "0007.BMP",
+      "bytes": 921654,
+      "sha256": "ac8f268337dc0c9456ecf428263f2f09a93a331d1da952adca9886fabd129285",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 29,
+            "lcn": 414
+          }
+        ]
+      },
+      "bmp": {
+        "width": 640,
+        "height": 480,
+        "bpp": 24
+      }
+    },
+    {
+      "name": "PIP1.PV4",
+      "bytes": 3686912,
+      "sha256": "3e1be324fe08583733f7902a41871f739b2d4882665c99a83622b90959727608",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 113,
+            "lcn": 585
+          }
+        ]
+      },
+      "video": {
+        "version": 6,
+        "width": 256,
+        "height": 144,
+        "frames": 50,
+        "display_frames_per_source_frame": 6
+      }
+    },
+    {
+      "name": "PIP0.PV4",
+      "bytes": 19661312,
+      "sha256": "f3df9ead9ff390bd03d0c760061eb8ac304297006960e3ee86631b500bf834b3",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 601,
+            "lcn": 698
+          }
+        ]
+      },
+      "video": {
+        "version": 11,
+        "width": 512,
+        "height": 288,
+        "frames": 100,
+        "display_frames_per_source_frame": 6
+      }
+    },
+    {
+      "name": "RAIL.WAV",
+      "bytes": 1920104,
+      "sha256": "6ebe8bf4483bf1f48be38a5b9ca416d1f4aa95eaa60c14dd4f41bc303c4929a5",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 59,
+            "lcn": 472
+          }
+        ]
+      }
+    },
+    {
+      "name": "0008.BMP",
+      "bytes": 1440054,
+      "sha256": "8422df999b59f431e1236e648ac401c676847203570652e821180e66c07875cb",
+      "allocation": {
+        "status": "CONTIGUOUS",
+        "extents": [
+          {
+            "vcn": 0,
+            "clusters": 44,
+            "lcn": 531
+          }
+        ]
+      },
+      "bmp": {
+        "width": 800,
+        "height": 600,
+        "bpp": 24
+      }
+    }
+  ],
+  "errors": [],
+  "root_names": [
+    "00_img0_canon.wav",
+    "01_img1_canon.wav",
+    "02_img2_canon.wav",
+    "03_img3_canon.wav",
+    "System Volume Information",
+    "0001.BMP",
+    "0002.BMP",
+    "0003.BMP",
+    "0004.BMP",
+    "0005.BMP",
+    "0006.BMP",
+    "0007.BMP",
+    "PIP1.PV4",
+    "PIP0.PV4",
+    "RAIL.WAV",
+    "0008.BMP"
+  ],
+  "expected_pip0_sha256": "8d6c8ef820988bdb59fb7f1eefa2e2733a0227a80bce37735da6f82bcadbe619",
+  "expected_rail_wav_sha256": "6ebe8bf4483bf1f48be38a5b9ca416d1f4aa95eaa60c14dd4f41bc303c4929a5",
+  "expected_posters": {
+    "0005.BMP": "b36021cc17885dcf6f47fd9299bbde05fe40d6bd8161202abd7ba5845f5b6f70",
+    "0006.BMP": "e8627ea90d36cb28f5483ab356b02ea052e9c00f403664c6e188f4aaca10107b"
+  }
+}

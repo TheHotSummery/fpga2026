@@ -1,0 +1,35 @@
+Recommended minimal V94 temperature timing change
+
+In the top-level DHT11 instance only:
+  exhibit_dht11_reader #(.CLK_HZ(50_000_000),.POLL_US(2_100_000)) u_dht11 (...);
+
+Keep the reader itself, BOOT_US=2_000_000, START_US=20_000, checksum, temperature
+integer output and +2C/two-confirmation alarm unchanged.
+
+Do not recommend a1.1–1.2s read interval for an unverified DHT11 module revision.
+The Aosong-authored DHT11 Product Manual states sampling more than2 seconds.
+https://www.haoyuelectronics.com/Attachment/DHT11/DHT11.pdf
+PDF page3: Product parameters, sampling period and thermal response.
+PDF page4: previous measurement returned and conversion triggered per transaction.
+The same manual additionally recommends longer intervals for measurement accuracy;
+the2.1s proposal meets the stated minimum, but is still a demonstration tradeoff.
+
+Expected read transaction interval: approximately2.124s rather than2.524s.
+Baseline ready approximately6.27s after reset rather than7.07s, depending on bits.
+Two hot confirmations take at most approximately4.25s after an actual hot reading
+becomes available, rather than5.05s. Physical thermal response is independent;
+the manual lists10 seconds for63% temperature response, so firmware cannot make
+breathing become an instantaneous reliable temperature increase.
+
+Optional diagnostic presentation with no fake temperature values:
+- a small marker that toggles after each checksum-valid sample, even if temperature
+  remains the same integer;
+- no sample yet shown as --C;
+- a separate error marker after checksum/timeout, keeping last good numeric value
+  clearly distinguishable from a new reading;
+- keep10-second age timeout for numeric unavailable state.
+This is not implemented here, to avoid unnecessary changes to production logic.
+
+Test: sensor_poll_2100ms_tb.v. The first full REST2.1s is simulated at actual50MHz;
+later idle middles are fast-forwarded to speed the test, but the deadline, divider,
+20ms host start, wire waveform and checksum/alarm logic remain production RTL.

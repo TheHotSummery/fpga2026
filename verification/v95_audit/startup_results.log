@@ -1,0 +1,2 @@
+STARTUP_RECOVERY_RESULT checks=17 failures=0 resets=2 scans=4 initialized_edges=4
+C:\Users\Administrator\Documents\Codex\2026-10-09\referenced-chatgpt-conversation-this-is-an\work\v94_flow_audit\startup_recovery_tb.v:156: $finish called at 248446000 (1ps)

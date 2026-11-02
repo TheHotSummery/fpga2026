@@ -1,0 +1,80 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/software/TD_6.2.1_Engineer/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     HP
+   Run Date =   Fri Oct 23 22:34:32 2026
+
+   Run on =     LAPTOP-FH7GE0GM
+============================================================
+Copyright (c) 1998-2019 The OpenSSL Project.  All rights reserved.
+This product includes software developed by the OpenSSL Project
+for use in the OpenSSL Toolkit (http://www.openssl.org/)
+Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+All rights reserved.
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)
+HDL-7225 CRITICAL-WARNING: 'state_clk' is already implicitly declared on line 510 in ../user_source/hdl_source/top_tf_hdmi_audio.v(573)
+HDL-7225 CRITICAL-WARNING: 'period_clk' is already implicitly declared on line 515 in ../user_source/hdl_source/top_tf_hdmi_audio.v(573)
+HDL-7225 CRITICAL-WARNING: 'emerg_clk' is already implicitly declared on line 554 in ../user_source/hdl_source/top_tf_hdmi_audio.v(576)
+HDL-7225 CRITICAL-WARNING: 'frozen_clk' is already implicitly declared on line 557 in ../user_source/hdl_source/top_tf_hdmi_audio.v(576)
+HDL-7225 CRITICAL-WARNING: 'interpolate_ready_sd' is already implicitly declared on line 436 in ../user_source/hdl_source/top_tf_hdmi_audio.v(607)
+HDL-7225 CRITICAL-WARNING: 'video_emerg' is already implicitly declared on line 599 in ../user_source/hdl_source/top_tf_hdmi_audio.v(617)
+HDL-7225 CRITICAL-WARNING: 'line_c1' is already implicitly declared on line 664 in ../user_source/hdl_source/top_tf_hdmi_audio.v(689)
+HDL-7225 CRITICAL-WARNING: 'fl_state' is already implicitly declared on line 585 in ../user_source/hdl_source/top_tf_hdmi_audio.v(1121)
+HDL-7225 CRITICAL-WARNING: 'jedec_id' is already implicitly declared on line 585 in ../user_source/hdl_source/top_tf_hdmi_audio.v(1124)
+HDL-5373 WARNING: identifier 'aud_hold_ext' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(231)
+HDL-5373 WARNING: identifier 'rst_all' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(243)
+HDL-5373 WARNING: identifier 'rst_all' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(244)
+HDL-5373 WARNING: identifier 'rail_audio_a' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(277)
+HDL-5373 WARNING: identifier 'announce_allow_a' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(277)
+HDL-5373 WARNING: identifier 'pcm_fault_hold' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(278)
+HDL-5373 WARNING: identifier 'rail_audio_m' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(278)
+HDL-5373 WARNING: identifier 'announce_reset_m' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(278)
+HDL-5373 WARNING: identifier 'video_emerg' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(393)
+HDL-5373 WARNING: identifier 'video_emerg' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(394)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(521)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(521)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(522)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(522)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(523)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(523)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(524)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(524)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(525)
+HDL-5373 WARNING: identifier 'lat_clk' is used before its declaration in ../user_source/hdl_source/top_tf_hdmi_audio.v(526)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5323 WARNING: input port 'sd_sec_write_data[7]' remains unconnected for this instance in ../user_source/hdl_source/SD/sd_card_bmp.v(1545)
+HDL-5314 WARNING: net 'scale_rom' does not have a driver in ../user_source/hdl_source/top_tf_hdmi_audio.v(12003)
+HDL-5314 WARNING: net 'pixels' does not have a driver in ../user_source/hdl_source/top_tf_hdmi_audio.v(12506)
+HDL-5314 WARNING: net 'rows' does not have a driver in ../user_source/hdl_source/top_tf_hdmi_audio.v(17075)
+HDL-5314 WARNING: net 'font_index' does not have a driver in ../user_source/hdl_source/top_tf_hdmi_audio.v(2336)
+HDL-5314 WARNING: net 'font' does not have a driver in ../user_source/hdl_source/top_tf_hdmi_audio.v(14633)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../user_source/hdl_source/ip/afifo_16_32_256.v(231)
+HDL-5007 WARNING: actual bit length 10 differs from formal bit length 9 for port 'wrusedw' in ../user_source/hdl_source/SD/frame_read_write.v(112)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'rdusedw' in ../user_source/hdl_source/SD/frame_read_write.v(151)
+HDL-5317 WARNING: input port 'dib[31]' is not connected on this instance in ../user_source/hdl_source/ip/afifo_32_16_256.v(231)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 10 for port 'wrusedw' in ../user_source/hdl_source/SD/frame_read_write.v(203)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_0' in ../user_source/hdl_source/top_tf_hdmi_audio.v(900)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_1' in ../user_source/hdl_source/top_tf_hdmi_audio.v(901)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_2' in ../user_source/hdl_source/top_tf_hdmi_audio.v(902)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_addr_3' in ../user_source/hdl_source/top_tf_hdmi_audio.v(903)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'read_len' in ../user_source/hdl_source/top_tf_hdmi_audio.v(905)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_0' in ../user_source/hdl_source/top_tf_hdmi_audio.v(920)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_1' in ../user_source/hdl_source/top_tf_hdmi_audio.v(921)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_2' in ../user_source/hdl_source/top_tf_hdmi_audio.v(922)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_addr_3' in ../user_source/hdl_source/top_tf_hdmi_audio.v(923)
+HDL-5007 WARNING: actual bit length 24 differs from formal bit length 21 for port 'write_len' in ../user_source/hdl_source/top_tf_hdmi_audio.v(926)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_init_ref.enc.v(47)
+HDL-5007 WARNING: concatenation with an unsized literal will be treated as 32 bits in ../user_source/hdl_source/include/sdr_wrrd.enc.v(283)
+HDL-5317 WARNING: input port '**' is not connected on this instance in ../user_source/hdl_source/include/sdr_as_ram.enc.v(17)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3307)
+HDL-5007 WARNING: actual bit length ** differs from formal bit length *** for port '**' in ../user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v(3318)
+HDL-5314 WARNING: net 'video_read_en' does not have a driver in ../user_source/hdl_source/top_tf_hdmi_audio.v(154)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed

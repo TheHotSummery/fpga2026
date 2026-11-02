@@ -1,0 +1,32 @@
+{
+  "mcp_capture_checks": 2150400,
+  "min_source_to_capture_cycles": 3,
+  "constraint_setup_cycles": 2,
+  "constraint_hold_cycles": 1,
+  "source_register": "p00",
+  "target_register": "h0",
+  "pixels_compared": 2150400,
+  "formats": 7,
+  "cycle_exact": true,
+  "same_valid_pause_done_overrun": true,
+  "compiler_returncode": 3221225477,
+  "simulator_returncode": 0,
+  "source_hashes": [
+    {
+      "path": "scaler.v",
+      "sha256": "d585592cfd34c9704cf76f4194dcbfce150c90acf6418c59d985e73278914b32"
+    },
+    {
+      "path": "reference.v",
+      "sha256": "d345257f9b0a8e3f160afd95d113e3ebae5985e889b65e4f23638de40a5a37bc"
+    },
+    {
+      "path": "bram_sim.v",
+      "sha256": "2defa382f8aaa54d5ee859b7d330fc36318c539649c2d5888b4d09e425cacd24"
+    },
+    {
+      "path": "tb.v",
+      "sha256": "d865c4780154243bf12e116cb7e370257b945f97d042187a131e1dbdda13c601"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = E:/software/TD_6.2.1_Engineer/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     HP
+   Run Date =   Fri Oct 23 23:45:59 2026
+
+   Run on =     LAPTOP-FH7GE0GM
+============================================================
+
+PHY-7002 CRITICAL-WARNING: Instance U3/sdram location (164, 288) is not honored. Cell's initial location is not legal at the beginning of ECO placement, and will be moved during placement. Please verify user location constraints through the adc file.
+PHY-7002 CRITICAL-WARNING: Instance U3/sdram location (164, 288) is not honored. Cell's initial location is not legal at the beginning of ECO placement, and will be moved during placement. Please verify user location constraints through the adc file.
+
+PHY-8023 ERROR: Location: (x11y46_s2beg3), nets: sd_card_bmp_m0/bmp_read_m0/mux596_syn_2[16] sd_card_bmp_m0/bmp_read_m0/compression[22]
+RUN-8102 ERROR: Incremental route failed. Please check if the resources used in your design exceed the device resource limitations. You can try using 'report_area' in console to check the resource utilization of the device. Or try check gate report and timing constraints. And you can try modifying the design or changing the strategy of syn, place or route, and rerunning it.
+PHY-8023 ERROR: Location: (x11y46_s2beg3), nets: sd_card_bmp_m0/bmp_read_m0/mux596_syn_2[16] sd_card_bmp_m0/bmp_read_m0/compression[22]

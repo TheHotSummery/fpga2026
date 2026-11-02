@@ -1,0 +1,24 @@
+{
+  "changed_source_files": [
+    "src/td_project/run_v95.tcl",
+    "src/user_source/hdl_source/SD/sd_card_bmp.v",
+    "src/user_source/constraints_source/scaler_phase.sdc"
+  ],
+  "temperature_pixel_audio_player_unchanged": true,
+  "tf_payload_unchanged": true,
+  "changes": [
+    "Cover resumed audio catalog in no-progress watchdog",
+    "Cancel parser, partial memory write and card transaction atomically on WAV timeout",
+    "Prevent expired WAV phases from restarting or publishing ready in the expiry clock",
+    "Cancel partial emergency C preload on spontaneous parser failure",
+    "Prevent a terminal WAV done/IDLE handshake from starting a duplicate unowned read",
+    "Use actual clock for 40-second WAV deadline",
+    "Target current negative STA paths dynamically during build, with strict final timing gate",
+    "Only p00->h0 has a conservative 2-cycle setup/1-cycle hold contract, with >=3-clock source stability verified across 7 formats and 2,150,400 captures; all clock frequencies and pixel RTL unchanged.",
+    "Prevent terminal WAV done/IDLE handshake from launching an unowned duplicate read",
+    "Require complete audio discovery before choosing the IR journey audio mode",
+    "Serialize queued pictures and video with initial PCM loading",
+    "Re-arm incomplete audio discovery after reset or emergency interruption"
+  ],
+  "phase_enable_timing_constraint_added": true
+}

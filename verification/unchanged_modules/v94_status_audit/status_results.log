@@ -1,0 +1,2 @@
+STATUS_RESULT checks=38 failures=0
+work/v94_status_audit/status_tb.v:60: $finish called at 36348000 (1ps)

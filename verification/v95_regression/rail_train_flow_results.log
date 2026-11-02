@@ -1,0 +1,96 @@
+PASS reset starts at normal railway stage
+PASS one-cycle infrared glitch ignored
+PASS unready system ignores obstruction
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS video waits for last frame commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS announcement hold advances only on frame tick
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS departure waits for infrared clear
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS flow completes once
+PASS next-station journey stage persists after flow finishes
+PASS clear sensor does not repeat flow
+PASS idle retains final route and subtitle stage
+PASS requested expected media
+PASS new obstruction rearms flow
+PASS new train cycle resets initial route before video commit
+PASS full eight-BMP catalog clamps railway count
+PASS requested expected media
+PASS emergency preserves waiting stage
+PASS emergency preserves committed journey stage
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS emergency pauses video phase
+PASS playing video resumes without restart request
+PASS requested expected media
+PASS emergency preserves waiting stage
+PASS emergency preserves committed journey stage
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS emergency preserves waiting stage
+PASS emergency preserves committed journey stage
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS emergency preserves waiting stage
+PASS emergency preserves committed journey stage
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS emergency preserves waiting stage
+PASS emergency preserves committed journey stage
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS flow completes once
+PASS next-station journey stage persists after flow finishes
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS flow completes once
+PASS next-station journey stage persists after flow finishes
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS requested expected media
+PASS speech event starts only after display commit
+PASS journey stage changes atomically with media commit
+PASS flow completes once
+PASS next-station journey stage persists after flow finishes
+RESULT checks=94 failures=0
+C:\Users\Administrator\Documents\Codex\2026-10-09\referenced-chatgpt-conversation-this-is-an\work\v95_regression\rail_train_flow_tb.v:80: $finish called at 4686000 (1ps)
